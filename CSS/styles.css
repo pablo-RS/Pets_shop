@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+.top_header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+header .top_header_navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .top_header_navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.6rem;
+}
+
+.middle_header {
+  background-color: #f5a937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1em;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.main_logo {
+  padding-left: 1rem;
+}
+
+header .main_navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .main_navbar nav ul li {
+  text-decoration: none;
+}
+
+header .main_navbar nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.9rem;
+}
+
+main .main_banner {
+  position: relative;
+}
+
+main .main_banner img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+main .main_banner .banner_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  top: 34%;
+  right: 5%;
+  flex-wrap: wrap;
+}
+
+main .main_banner .banner_container .banner_welcome {
+  padding: 0.7rem;
+  background: #fff;
+  color: #222222;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+main .main_banner .banner_container .banner_dct {
+  font-size: 1rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+main .main_banner .banner_container button {
+  background: rgb(240, 168, 62);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+}
+
+main .main_banner .banner_container button:hover {
+  cursor: pointer;
+  background: rgb(240, 180, 62);
+}
+
+main .main_banner .banner_container button:active {
+  background: rgb(240, 180, 62);
+}
+
+main .products {
+  width: 100%;
+  margin: 50x auto 60px;
+}
+
+main .products .head_caracter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+main .head_caracter .fa-paw {
+  color: #f0a83e;
+  size: 0000rem;
+}
+main .products .head_caracter h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #3c2313;
+  margin-bottom: 20px;
+}
+
+main .products .head_caracter nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main .products .head_caracter nav ul li {
+  text-decoration: none;
+}
+main .products .head_caracter nav ul li a {
+  text-decoration: none;
+  color: #222222;
+  padding: 0.9rem;
+}
+
+main .main_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+main .main_items .item {
+  margin: 1rem;
+  background: #fbfaf6;
+  padding: 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+main .main_items .item .item_name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3c2313;
+}
+
+main .main_items .item .item_price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3c2313;
+  padding: 0.5rem;
+}
+
+main .contact_us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+main .contact_us h2 {
+  color: #3c2313;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+
+main .contact_us form {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .contact_us form input {
+  background: #3c2313;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  width: 400px;
+}
+
+main .contact_us form .buttom_set {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main .contact_us form .buttom_set .reset_btn {
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 0;
+  color: white;
+  background: rgba(138, 135, 135, 1);
+  font-size: 15px;
+}
+
+main .contact_us form .buttom_set .send_btn {
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: 0;
+  color: white;
+  background: rgb(230, 143, 14);
+  font-size: 15px;
+}
+footer .newsletter {
+  background-color: #f5a937;
+  padding: 1rem;
+}
+
+footer .newsletter form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+footer .newsletter form .mail_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .newsletter form .mail_text label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+footer .newsletter form .mail_text img {
+  margin-left: 1rem;
+}
+
+footer .newsletter form .main_email input {
+  background: white;
+  width: px;
+  color: black;
+  border: 0;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+footer .newsletter form .main_email button {
+  font-weight: bold;
+  background: rgba(60, 35, 19, 1);
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+footer .newsletter form .main_email button:hover {
+  cursor: pointer;
+  background: rgba(60, 35, 19, 0.9);
+}
+
+footer .newsletter form .main_email button:active {
+  background: rgba(60, 35, 19, 1);
+}
+
+footer .extra_info {
+  padding: 4rem 1.5rem;
+  background: #703f21;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .extra_info .info .info_item {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  color: #fff;
+}
+
+footer .extra_info .info .info_item .info_content {
+  margin-left: 20px;
+}
+
+footer .extra_info .info .info_item .info_content .info_item_title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer .extra_info .info .info_item .info_content .info_item_content {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+footer > .copyright {
+  font-weight: 700;
+  background: #222222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  * {
+    font-size: 12px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  * {
+    font-size: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
